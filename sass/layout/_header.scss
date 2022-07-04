@@ -1,0 +1,41 @@
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  margin: 4.8rem;
+  margin-bottom: 9.6rem;
+}
+.header-logo {
+  height: 5.4rem;
+}
+.main-nav {
+  justify-self: center;
+  max-width: 80rem;
+}
+.main-nav-list {
+  display: flex;
+  gap: 6.4rem;
+  list-style: none;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #464749;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #1b8036;
+}
+.current:link,
+.current:visited {
+  color: #1b8036;
+}
+.nav-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.main-nav-btn:link,
+.main-nav-btn:visited {
+  box-shadow: 3px 10px 21px rgba(27, 128, 54, 0.51);
+}

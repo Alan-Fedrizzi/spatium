@@ -1,0 +1,39 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  padding: 0 4.8rem;
+}
+
+.two-columns {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9.6rem;
+}
+
+.four-columns {
+  grid-template-columns: 40fr 20fr 20fr 20fr;
+  column-gap: 7rem;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+div .margin-32 {
+  margin-bottom: 3.2rem;
+}
+
+.padding-sides {
+  padding: 0 4.8rem;
+}
+
+.img-box {
+  padding: 0 3.2rem;
+}
+.img {
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+.link:link,
+.link:visited {
+  @include btn-link;
+}
+
+.btn:link,
+.btn:visited {
+  @include btn-link;
+  color: #fff;
+  background-color: #1b8036;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 1.5rem 3rem;
+  border-radius: 100px;
+}
+.btn:hover,
+.btn:active {
+  color: #d1e6d7;
+}

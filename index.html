@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Spatium</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="header-logo" alt="Spatium logo" src="logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="link main-nav-link current">Home</a>
+          </li>
+          <li>
+            <a href="#" class="link main-nav-link">About Us </a>
+          </li>
+          <li>
+            <a href="#" class="link main-nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#" class="link main-nav-link">Manegement Profile</a>
+          </li>
+          <li>
+            <a href="#" class="link main-nav-link">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="main-nav-btn btn">Contact Us</a>
+    </header>
+
+    <section class="section-hero container grid">
+      <div class="hero-text-box">
+        <h1 class="heading-primary">Next Generation Global Innovators</h1>
+        <p class="hero-description">
+          Grow your business with our state-of-the art technology
+        </p>
+        <a href="#" class="hero-btn btn">Learn more</a>
+      </div>
+      <div class="hero-img-box">
+        <img class="hero-img" alt="Ilustration of people" src="hero.png" />
+      </div>
+    </section>
+
+    <section class="section-who container grid two-columns">
+      <div class="img-box">
+        <img class="img" alt="Phone with app open" src="who.png" />
+      </div>
+      <div class="align-center">
+        <div class="">
+          <div class="who-sub">
+            <ion-icon class="who-icon" name="ellipse"></ion-icon>
+            <span class="subheading">Who we are</span>
+          </div>
+          <h3 class="heading-tertiary">
+            We are a Team with Focus on Innovation and Improving Business
+            processes, people, and systems
+          </h3>
+          <p class="who-description">
+            Spatium Innovation Hub is a thinking company on a mission to connect
+            people and businesses with meaningful innovation, at scale.
+          </p>
+        </div>
+      </div>
+      <div class="who-text-box">
+        <div class="who-al-center">
+          <div class="who-sub">
+            <ion-icon class="who-icon" name="ellipse"></ion-icon>
+            <span class="subheading">What we do</span>
+          </div>
+          <h3 class="heading-tertiary">
+            We Create Innovative Solutions for Industries
+          </h3>
+          <p class="who-description">
+            Here at Spatium Innovation Hub, we know the importance os technology
+            as a source of innovation and as a critical success factor for
+            increased market competitiveness.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-products container">
+      <h2 class="heading-secondary">Our Products</h2>
+      <div class="product grid two-columns">
+        <div class="product-text align-center">
+          <div>
+            <h3 class="heading-tertiary margin-32">Setroman</h3>
+            <p class="product-subtitle">
+              The Setroman is an affordable new way to get your handywork done
+              quickly and save time.
+            </p>
+            <p class="product-description">
+              The Setroman is not your regular market place. You go to a regular
+              market place, but The Jornyman comes to you. And it brings the
+              complete market place experience with it.
+            </p>
+            <p class="product-description margin-32">See more at setroman.io</p>
+            <a href="#" class="btn btn-product">Request Demo</a>
+          </div>
+        </div>
+        <div class="img-box">
+          <img class="img" alt="iPhone with Setroman" src="setroman.png" />
+        </div>
+      </div>
+      <div class="product grid two-columns">
+        <div class="img-box">
+          <img
+            class="img"
+            alt="Mac computer showing UrbanNFT"
+            src="urban.png"
+          />
+        </div>
+        <div class="product-text align-center">
+          <div>
+            <h3 class="heading-tertiary margin-32">UrbanNFT</h3>
+            <p class="product-subtitle">
+              Discover, collect, and sell extraordinary NFTs.
+            </p>
+            <p class="product-description">
+              UrbanNFT is the world's leading and largest NFT marketplace.
+              Airnfts is Multichain NFT marketplace built on Binance Smart
+              Chain, Fantom and Polygon. Where you can Mint, Buy, Sell and Earn.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-questions">
+      <h3 class="heading-tertiary">Frequently asked questions</h3>
+      <ion-icon name="chevron-down-outline" class="questions-icon"></ion-icon>
+    </section>
+
+    <section class="container padding-sides">
+      <div class="newsletter">
+        <img
+          src="news.png"
+          alt="Ilustration of an envelope with news"
+          class="newsletter-img"
+        />
+        <p class="newsletter-text">Subscribe to our Newsletter</p>
+        <div class="newsletter-form-box">
+          <form class="newsletter-form" name="subscribe">
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              name="email"
+              required
+            />
+            <button class="newsletter-btn">
+              <div class="newsletter-btn-flex">
+                Subscribe
+                <ion-icon
+                  name="arrow-forward-circle"
+                  class="newsletter-icon"
+                ></ion-icon>
+              </div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container grid four-columns">
+        <div class="footer-col">
+          <p class="footer-heading">About us</p>
+          <img
+            class="footer-logo"
+            alt="Spatium logo white"
+            src="logo-white.png"
+          />
+          <p class="footer-text">
+            Spatium Innovation Hub is a thinking company on a mission to connect
+            people and businesses with meaninful innovation.
+          </p>
+          <div class="footer-social">
+            <div class="footer-social-round">
+              <ion-icon
+                name="logo-twitter"
+                class="footer-social-logo-2"
+              ></ion-icon>
+            </div>
+            <ion-icon
+              name="logo-facebook"
+              class="footer-social-logo-1"
+            ></ion-icon>
+            <div class="footer-social-round">
+              <ion-icon
+                name="logo-instagram"
+                class="footer-social-logo-2"
+              ></ion-icon>
+            </div>
+            <div class="footer-social-round">
+              <ion-icon
+                name="logo-linkedin"
+                class="footer-social-logo-2"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="link footer-link">Help Center</a></li>
+            <li><a href="#" class="link footer-link">Partners</a></li>
+            <li>
+              <a href="#" class="link footer-link">Gas-Free Marketplace</a>
+            </li>
+            <li><a href="#" class="link footer-link">Docs</a></li>
+            <li><a href="#" class="link footer-link">Utility</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-heading">Services</p>
+          <ul class="footer-nav">
+            <li>
+              <a href="#" class="link footer-link">Software Development</a>
+            </li>
+            <li>
+              <a href="#" class="link footer-link"
+                >Identity Management & Verification</a
+              >
+            </li>
+            <li>
+              <a href="#" class="link footer-link"
+                >IT Consulting & Advisory Services</a
+              >
+            </li>
+            <li><a href="#" class="link footer-link">UI/UX Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-heading">Quicklinks</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="link footer-link">Careers</a></li>
+            <li><a href="#" class="link footer-link">Resources</a></li>
+            <li><a href="#" class="link footer-link">Products</a></li>
+            <li><a href="#" class="link footer-link">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">
+        Copyright 2020. Spatium Innovation Hub. All Rights Reserved
+      </p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
