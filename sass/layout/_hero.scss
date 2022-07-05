@@ -4,6 +4,10 @@
   grid-template-columns: 2fr 1fr;
   gap: 9.6rem;
   margin-bottom: 12.8rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    gap: 8rem;
+  }
 }
 .hero-text-box {
   padding: 3.2rem 0;
