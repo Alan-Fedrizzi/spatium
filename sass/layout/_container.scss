@@ -11,11 +11,42 @@
 .two-columns {
   grid-template-columns: 1fr 1fr;
   column-gap: 9.6rem;
+
+  @media only screen and (max-width: $bp-large) {
+    column-gap: 8rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    column-gap: 6.4rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    column-gap: 4.8rem;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
 }
 
 .four-columns {
   grid-template-columns: 40fr 20fr 20fr 20fr;
   column-gap: 7rem;
+
+  @media only screen and (max-width: $bp-large) {
+    column-gap: 6rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    column-gap: 4.8rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-columns: 60fr 40fr;
+    column-gap: 6rem;
+    row-gap: 3rem;
+  }
 }
 
 .align-center {
@@ -33,7 +64,17 @@ div .margin-32 {
 
 .img-box {
   padding: 0 3.2rem;
+
+  @media only screen and (max-width: $bp-smallest) {
+    display: flex;
+    justify-content: center;
+    grid-row: 1 / -1;
+  }
 }
 .img {
   width: 100%;
+
+  @media only screen and (max-width: $bp-smallest) {
+    width: 60%;
+  }
 }

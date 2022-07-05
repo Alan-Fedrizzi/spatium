@@ -10,10 +10,18 @@
 .footer .container {
   border-bottom: 2px solid #c4c4c4;
   padding-top: 3rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding-bottom: 3rem;
+  }
 }
 .footer-logo {
   height: 9rem;
   margin-bottom: 1.4rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    height: 8rem;
+  }
 }
 .footer-heading {
   font-size: 2rem;
@@ -25,6 +33,10 @@
   font-size: 1.8rem;
   line-height: 1.2;
   margin-bottom: 2.4rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 1.6rem;
+  }
 }
 .footer-social {
   display: flex;

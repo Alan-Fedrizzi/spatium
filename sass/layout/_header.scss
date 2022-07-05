@@ -4,6 +4,26 @@
   align-items: center;
   margin: 4.8rem;
   margin-bottom: 9.6rem;
+  position: relative;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin-bottom: 8rem;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    margin-bottom: 6.4rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 12rem;
+    width: 90%;
+    background-color: #fff;
+    margin: 0 3.6rem 4.8rem 3.6rem;
+    padding-top: 3.6rem;
+  }
 }
 .header-logo {
   height: 5.4rem;
@@ -11,6 +31,10 @@
 .main-nav {
   justify-self: center;
   max-width: 80rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }
 .main-nav-list {
   display: flex;
@@ -38,4 +62,8 @@
 .main-nav-btn:link,
 .main-nav-btn:visited {
   box-shadow: 3px 10px 21px rgba(27, 128, 54, 0.51);
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }

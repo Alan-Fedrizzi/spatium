@@ -7,6 +7,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 9.6rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin-bottom: 6.4rem;
+  }
 }
 .section-questions .heading-tertiary {
   margin-bottom: 0;
@@ -33,19 +37,45 @@
   grid-template-columns: auto auto 1fr;
   gap: 3.6rem;
   align-items: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: auto 1fr;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 2rem 2.6rem 2rem 2.6rem;
+  }
 }
 .newsletter-img {
   height: 10rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    height: 8rem;
+  }
 }
 .newsletter-text {
   font-size: 2.4rem;
   font-weight: 500;
   color: #fff;
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 2rem;
+  }
 }
 .newsletter-form-box {
   background-color: #fff;
   padding: 0.6rem 0.6rem 0.6rem 3.6rem;
   border-radius: 100px;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+    width: 80%;
+    justify-self: center;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    width: 100%;
+  }
 }
 .newsletter-form {
   display: flex;
@@ -83,6 +113,10 @@
   font-size: 1.8rem;
   padding: 0.3rem 0.3rem 0.3rem 0.9rem;
   border-radius: 100px;
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 1.2rem;
+  }
 }
 .newsletter-btn:hover,
 .newsletter-btn:active {
@@ -91,4 +125,8 @@
 .newsletter-icon {
   height: 4.4rem;
   width: 4.4rem;
+
+  @media only screen and (max-width: $bp-smallest) {
+    display: none;
+  }
 }
